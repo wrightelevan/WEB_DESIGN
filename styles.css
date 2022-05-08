@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
+h1{
+    padding: 0%;
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(240, 16, 9);
+    background-color: rgb(16, 253, 87);
+}
+figure{
+   display: inline;
+   height: 450px;
+}
+div {
+
+   text-align: center;
+margin: auto;
+float: left;
+padding: 10px;
+width: 33.33%;
+height: 400px;
+box-shadow: 2px 2px 5px gray;
+
+}
+div:hover{
+     background-color: rgb(217, 196, 235);
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+
+   width: 100vw;
+   height: 40px;
+     background-color: rgb(31, 31, 129);
+
+}
+a{
+
+    text-decoration: none;
+    margin-inline: 10px;
+    color: rgb(131, 247, 15);
+
+
+}
+a:hover{
+    color: white
+}
+.main{
+   align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    display: block;
+
+}
+figcaption{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+img{
+    height: 300px;
+}
+.bottom{
+
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(77, 4, 110);
+    color: rgba(63, 252, 6, 0.986);
+}

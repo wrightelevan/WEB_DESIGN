@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        width: 100vw;
+        height: 40px;
+        background-color: rgb(31, 31, 129);
+
+        }
+        a{
+
+    text-decoration: none;
+    margin-inline: 10px;
+    color: rgb(131, 247, 15);
+
+
+    }
+        input[type=submit] {
+          background-color: #0f6be2;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        .container {
+          border-radius: 5px;
+          background-color: #68646449;
+          padding: 20px;
+        }
+        </style>
+</head>
+<body>
+
+    <nav><a href="index.html" >TRIPS</a><a href="about.html" >ABOUT</a><a href="#" >CONTACTS</a></nav>
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="mailto:Marcelline@gmail.com" enctype="text/plain" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="region">Region</label>
+    <select id="region" name="region">
+      <option value="ashanti">Ashanti</option>
+      <option value="volta">Volta</option>
+      <option value="accra">Greater Accra</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div style=" text-align: center; height: 35px; width: 100vw;
+justify-content: center;align-items: center;bottom: 0px; background-color: rgb(79, 12, 105);color: #3bfd0a; margin: 0px; padding: 10px;"><span>Copyright &copy; Marcelline Ameka Travel and Tours</span></div>
+</body>
+</html>
